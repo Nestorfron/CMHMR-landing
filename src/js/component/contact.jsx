@@ -3,8 +3,9 @@ import React from "react"
 
 export const Contact = () => (
         <form>
-                <h1 className="my-5" >Contacto</h1>
+
                 <div className="container text-start ounded-3 pb-5 shadow-lg  p-4">
+                        <h1 className="text-center" >Contacto</h1>
                         <div className="mb-3">
                                 <label className="form-label">Nombre y Apellido</label>
                                 <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
