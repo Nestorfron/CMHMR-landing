@@ -5,8 +5,8 @@ import "../../styles/index.css"
 
 
 export const About = () => (
-    <div className="about text-center shadow">
-        <div className="jumbotron container">
+    <div className="fondo ext-center">
+        <div className="jumbotron about container">
             <h1 className="display-4 title">3 Little Birds</h1>
             <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr className="my-4" />

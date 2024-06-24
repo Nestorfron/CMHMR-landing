@@ -1,11 +1,21 @@
-.nav {
-    background: #ffff
+.fondo {
+    background: #252525 !important;
+}
+
+
+.nav_bar {
+    box-shadow: 0 0 15px #00FFFF !important;
+    
+}
+
+.nav-link {
+    color: #00FFFF !important;
 }
 
 .about{
-    background: #ffff;
-    height: 30rem;
-    margin-top: 2rem;
+    height: 35rem;
+    margin-top: 4rem !important; 
+    color: #cf3476;
 }
 
 .title {
@@ -15,8 +25,45 @@
 .img {
     max-width: 4.5rem;
     max-height: 4.5rem;
+    box-shadow: 0 0 15px #00FFFF !important;
+}
+
+.skill_title{
+    color: #cf3476;
+}
+
+.img-skill {
+    box-shadow: 0 0 15px #cf3476  !important;
+
+}
+
+.skill {
+    box-shadow: 0 0 15px #cf3476  !important;
+    color: #cf3476  !important;
+}
+
+.projects{
+    box-shadow: 0 0 15px #FFFF00  !important;
+    background-color: #FFFF00;
+}
+
+.contact{
+    color: #00FFFF;
 }
 
 .footer {
-    background: #ffff !important;
+    box-shadow: 0 0 15px #00FFFF !important;
+    color: #00FFFF
+}
+
+.boton_projects {
+    box-shadow: 0 0 15px #FFFF00 !important;
+    color:#FFFF00;
+    background-color: #252525!important;
+}
+
+.boton_projects:hover{
+    box-shadow: 0 0 15px #FFFF00 !important;
+    color:#ffffff;
+    background-color: #252525;   
 }
