@@ -63,6 +63,7 @@
 .boton_contact {
     background-color: #00FFFF;
     color: #252525;
+    border: none;
 }
 
 .boton_contact:hover {
@@ -86,3 +87,26 @@
     color:#ffffff;
     background-color: #252525;   
 }
+
+.cmn-divfloat {
+    position: fixed !important;
+    z-index: 1;
+    bottom: 45px;
+    right: 15px;
+}
+.cmn-btncircle {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 0 5px #00FFFF !important;
+    background-color: #252525;
+}
+
+.cmn-btncircle:hover{
+    box-shadow: 0 0 10px #00FFFF !important;
+    background-color: #252525;
+}
+
