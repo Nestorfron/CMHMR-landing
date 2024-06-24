@@ -8,13 +8,18 @@
     
 }
 
+.icon {
+    margin-top: 8px;
+    color: #00FFFF;
+}
+
+
 .nav-link {
     color: #00FFFF !important;
 }
 
 .about{
-    height: 35rem;
-    margin-top: 4rem !important; 
+    height: 35rem; 
     color: #cf3476;
 }
 
@@ -27,9 +32,8 @@
 }
 
 .img {
-    max-width: 4.5rem;
-    max-height: 4.5rem;
-    box-shadow: 0 0 15px #00FFFF !important;
+    max-width: 4rem;
+    max-height: 4rem;
 }
 
 .skill_title{

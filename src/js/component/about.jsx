@@ -6,10 +6,10 @@ import img from '../../img/3lb.jpg'
 
 
 export const About = () => (
-    <div className="fondo ext-center">
-        <div className="jumbotron about container pb-5">
-        <h1 className="title display-4">3 Little Birds</h1>
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div id="about" className="fondo text-center">
+        <div className="jumbotron about pb-5">
+            <h1 className="title display-4">3 Little Birds</h1>
+            <div id="carouselExampleRide" class="container carousel slide shadow" data-bs-ride="true">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src={img} class="carousel_img d-block w-100" alt="..." />
@@ -29,7 +29,6 @@ export const About = () => (
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-
             </div>
         </div>
     </div>

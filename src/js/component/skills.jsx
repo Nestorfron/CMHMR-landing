@@ -2,7 +2,7 @@ import React from "react";
 import img from '../../img/3lb.jpg'
 
 export const Skills = () => (
-    <div className="fondo text-center pb-3">
+    <div id="skills" className="fondo text-center pb-3">
         <div className="container m-auto justify-content-between p-5 shadow">
             <h1 className="skill_title py-5">Habilidades</h1>
             <div className="row">

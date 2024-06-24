@@ -2,7 +2,7 @@ import React from "react"
 
 
 export const Contact = () => (
-        <form className="contact fondo container-fluid">
+        <form id="contact" className="contact fondo container-fluid">
 
                 <div className="container text-start rounded-3 pb-5 shadow-lg  p-4">
                         <h1 className="text-center" >Contacto</h1>
