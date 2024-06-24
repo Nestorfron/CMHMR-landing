@@ -52,11 +52,22 @@
 
 .projects{
     box-shadow: 0 0 15px #FFFF00  !important;
-    background-color: #FFFF00;
+    color:#FFFF00;
+    
 }
 
 .contact{
     color: #00FFFF;
+}
+
+.boton_contact {
+    background-color: #00FFFF;
+    color: #252525;
+}
+
+.boton_contact:hover {
+    background-color:#00FFFF;
+    color: #ffffff
 }
 
 .footer {
@@ -65,13 +76,13 @@
 }
 
 .boton_projects {
-    box-shadow: 0 0 15px #FFFF00 !important;
+    box-shadow: 0 0 5px #FFFF00 !important;
     color:#FFFF00;
     background-color: #252525!important;
 }
 
 .boton_projects:hover{
-    box-shadow: 0 0 15px #FFFF00 !important;
+    box-shadow: 0 0 5px #FFFF00 !important;
     color:#ffffff;
     background-color: #252525;   
 }

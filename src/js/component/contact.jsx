@@ -22,7 +22,7 @@ export const Contact = () => (
                                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                        <button type="submit" className="btn btn-primary mb-5">Enviar</button>
+                        <button type="submit" className="boton_contact btn btn-primary mb-5">Enviar</button>
                 </div>
         </form>
 )
