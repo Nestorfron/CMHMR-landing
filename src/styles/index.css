@@ -18,8 +18,12 @@
     color: #cf3476;
 }
 
+.carousel_img{
+    height: 25rem;
+}
+
 .title {
-    padding-top: 8rem;
+    padding-top: 4rem;
 }
 
 .img {
