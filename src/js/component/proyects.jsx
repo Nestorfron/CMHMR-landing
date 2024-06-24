@@ -5,7 +5,7 @@ export const Proyects = () => (
     <div id="projects" className="fondo text-center pb-3">
         <div className="container row m-auto justify-content-center shadow pb-3">
             <h1 className="text-warning py-5">Proyectos</h1>
-            <div className="projects card col-md-3 col-4 m-4 shadow">
+            <div className="projects card col-md-3 col-sm-4 col-5 m-4 shadow">
                 <img src={img} className="card-img-top rounded-circle" alt={img}/>
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -13,7 +13,7 @@ export const Proyects = () => (
                         <a href="#" className="btn boton_projects">link perfil cliente</a>
                     </div>
             </div>
-            <div className="projects card col-md-3 col-4 m-4 shadow">
+            <div className="projects card col-md-3 col-sm-4 col-5 m-4 shadow">
                 <img src={img} className="card-img-top rounded-circle" alt={img}/>
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -21,7 +21,7 @@ export const Proyects = () => (
                         <a href="#" className="btn boton_projects">link perfil cliente</a>
                     </div>
             </div>
-            <div className="projects card col-md-3 col-4 m-4 shadow">
+            <div className="projects card col-md-3 col-sm-4 col-5 m-4 shadow">
                 <img src={img} className="card-img-top rounded-circle" alt={img}/>
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -29,7 +29,7 @@ export const Proyects = () => (
                         <a href="#" className="btn boton_projects">link perfil cliente</a>
                     </div>
             </div>
-            <div className="projects card col-md-3 col-4 m-4 shadow">
+            <div className="projects card col-md-3 col-sm-4 col-5 m-4 shadow">
                 <img src={img} className="card-img-top rounded-circle" alt={img}/>
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
