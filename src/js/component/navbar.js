@@ -3,14 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 import "../../styles/index.css"
-import img from '../../img/3lb.jpg'
 
 export const Navbar = () => {
 	return (
-		
+
 		<nav className="nav_bar navbar navbar-expand-lg bg-dark px-4">
 			<div className="nav container-fluid bg-dark">
-			<a className="navbar-brand" href="#"><img className="img rounded-circle" src={img} /></a>
+				<a className="navbar-brand" href="#"><p className="nav-brand">3LittleBirds</p></a>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="icon navbar-toggler-icon fs-2"><FontAwesomeIcon icon={faBars} /></span>
 				</button>
@@ -25,6 +24,6 @@ export const Navbar = () => {
 				</div>
 			</div>
 		</nav>
-		
+
 	);
 };
