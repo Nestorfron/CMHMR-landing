@@ -1,29 +1,34 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-
+import img from "../../img/logo.png"
 import "../../styles/index.css"
 
 export const Navbar = () => {
 	return (
-
-		<nav className="nav_bar navbar navbar-expand-lg bg-dark px-4">
-			<div className="nav container-fluid bg-dark">
-				<a className="navbar-brand" href="#"><p className="nav-brand">3LittleBirds</p></a>
-				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span className="icon navbar-toggler-icon fs-2"><FontAwesomeIcon icon={faBars} /></span>
+		<nav class="navbar navbar-expand-lg bg-none">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src={img} alt="Logo" width="60" height="50" class="d-inline-block align-text-top" /></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div className="navbar-nav ms-auto">
-						<a className="nav-link fs-5" aria-current="page" href="#">Inicio</a>
-						<a className="nav-link my-auto" href="/#about">Quien somos</a>
-						<a className="nav-link my-auto" href="/#skills">Habilidades</a>
-						<a className="nav-link my-auto" href="/#projects">Proyectos</a>
-						<a className="nav-link my-auto" href="/#contact">Contacto</a>
-					</div>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</nav>
-
 	);
 };
