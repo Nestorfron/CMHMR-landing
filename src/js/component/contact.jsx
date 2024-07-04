@@ -5,7 +5,7 @@ export const Contact = () => (
         <form id="contact" className="contact container-fluid">
                 <div className="container text-start rounded-3 pb-5 shadow-lg p-4">
                         <div className="container m-auto border-bottom mb-3">
-                                <h1 className="skills-title p-3 m-3">Contacto</h1>
+                                <h1 className="skills-title p-3 m-auto">Contacto</h1>
                         </div>
                         <div className="mb-3">
                                 <label className="form-label">Nombre y Apellido</label>
