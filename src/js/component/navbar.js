@@ -14,17 +14,17 @@ export const Navbar = () => {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarNav">
 					<ul className="navbar-nav ms-auto fs-5">
-						<li className="link-inicio nav-item">
-							<a className="nav-link text-white" aria-current="page" href="#">Inicio</a>
+						<li className="nav-item">
+							<a className="nav-link link-inicio" aria-current="page" href="#">Inicio</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link link" href="#skills">Conocimientos</a>
 						</li>
 						<li className="link nav-item">
-							<a className="nav-link text-secondary" href="#skills">Conocimientos</a>
+							<a className="nav-link link" href="#projects">Proyectos</a>
 						</li>
 						<li className="link nav-item">
-							<a className="nav-link text-secondary" href="#projects">Proyectos</a>
-						</li>
-						<li className="link nav-item">
-							<a className="nav-link text-secondary" href="#contact">Contacto</a>
+							<a className="nav-link link" href="#contact">Contacto</a>
 						</li>
 					</ul>
 				</div>
