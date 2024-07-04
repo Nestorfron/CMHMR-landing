@@ -1,5 +1,13 @@
-.body {
-    background: url(../img/mix.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+#about {
+    background-color: rgba(0, 0, 0, 0.623);
+
+}
+
+i:hover {
+    color: rgb(124, 124, 124) !important;
+}
+
+.image {
+    max-width: 700px;
+    max-height: 500px;
 }
