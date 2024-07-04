@@ -53,8 +53,8 @@ a:hover {
 }
 
 .project-boton {
-    color: yellow !important;
-    background-color: #ffffff;
+    color: #ffffff !important;
+    background-color: yellow;
     border: none;
 }
 
