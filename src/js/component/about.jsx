@@ -13,16 +13,16 @@ export const About = () => (
         </div>
         <div className="card-body">
             <Link>
-                <i className="icon-about fa-brands fa-facebook m-4  text-white"></i>
+                <i className="icon-about fa-brands fa-facebook m-4  text-white shadow"></i>
             </Link>
             <Link>
-                <i className="icon-about fa-brands fa-linkedin m-4  text-white"></i>
+                <i className="icon-about fa-brands fa-linkedin m-4  text-white shadow"></i>
             </Link>
             <Link>
-                <i className="icon-about fa-brands fa-github m-4  text-white"></i>
+                <i className="icon-about fa-brands fa-github m-4  text-white shadow"></i>
             </Link>
             <Link>
-                <i className="icon-about fa-brands fa-whatsapp m-4  text-white"></i>
+                <i className="icon-about fa-brands fa-whatsapp m-4  text-white shadow"></i>
             </Link>
             <div id="div-totop" className="cmn-divfloat">
                 <a href="#" className="btn btn-dark cmn-btncircle">
