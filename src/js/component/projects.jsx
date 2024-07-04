@@ -5,7 +5,7 @@ import img from "../../img/logo.png"
 
 export const Projects = () => (
     <div id="projects" className="fondo text-center pb-3">
-        <div className="m-auto border-bottom mb-3">
+        <div className="container m-auto border-bottom mb-3">
             <h1 className="skills-title p-3 m-3">Proyectos</h1>
         </div>
         <div className="container row m-auto justify-content-center">
