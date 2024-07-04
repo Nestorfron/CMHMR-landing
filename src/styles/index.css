@@ -39,6 +39,11 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.623);
 }
 
+.project-img {
+    width: 1rem;
+    height: 1rem;
+}
+
 .cmn-divfloat {
     position: fixed !important;
     z-index: 1;
