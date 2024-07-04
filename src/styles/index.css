@@ -1,6 +1,5 @@
-#about {
-    background-color: rgba(0, 0, 0, 0.623);
-
+.about-container {
+    background-color: rgba(0, 0, 0, 0.842);
 }
 
 i:hover {
@@ -33,9 +32,6 @@ a:hover {
     color: white;
 }
 
-.skills-body {
-    border-color: black !important;
-}
 
 .icon-skill {
     font-size: 6rem;
