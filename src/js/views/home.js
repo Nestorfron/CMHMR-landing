@@ -3,7 +3,7 @@ import "../../styles/index.css";
 import { Navbar } from "../component/navbar"
 import { About } from "../component/about.jsx"
 import { Skills } from "../component/skills.jsx"
-import { Proyects } from "../component/proyects.jsx";
+import { Projects } from "../component/projects.jsx";
 import { Contact } from "../component/contact.jsx";
 import { Footer } from "../component/footer";
 
@@ -12,7 +12,7 @@ export const Home = () => (
         <Navbar/>
         <About/>
         <Skills/>
-        <Proyects/>
+        <Projects/>
         <Contact/>
         <Footer/>
     </div>
