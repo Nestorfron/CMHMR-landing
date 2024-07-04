@@ -33,6 +33,10 @@ a:hover {
     color: white;
 }
 
+.skills-body {
+    border-color: black !important;
+}
+
 .icon-skill {
     font-size: 6rem;
     margin-bottom: 0.7rem;

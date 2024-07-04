@@ -1,5 +1,5 @@
 import React from "react";
-
+import img1 from "../../img/1.png"
 import img2 from "../../img/2.jpg"
 import img3 from "../../img/3.jpg"
 import img4 from "../../img/4.jpg"
@@ -18,7 +18,7 @@ export const Projects = () => (
         </div>
         <div className="container row m-auto justify-content-center">
             <div className="project-card card col-8 col-md-4 m-4 rounded-4">
-                <img src={img2} className="project-img card-img-top m-auto pt-4" alt="..." />
+                <img src={img1} className="project-img card-img-top m-auto pt-4" alt="..." />
                 <div className="card-body text-white">
                     <h5 className="card-title">StarWars Blog</h5>
                     <p className="card-text">HTML-React-Fetch</p>

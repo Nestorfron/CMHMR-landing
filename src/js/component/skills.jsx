@@ -6,7 +6,7 @@ export const Skills = () => (
         <div className="m-auto border-bottom mb-3">
             <h1 className="skills-title p-3 m-3">Conocimientos</h1>
         </div>
-        <div className="row m-auto">
+        <div className="skills-body row m-auto shadow pb-3">
             <div className="col-6 col-md-3 col-sm-6 m-auto p-4 text-white">
                 <i className="fa-brands icon-skill fa-html5"></i>
                 <p className="my-auto p-skill px-3 card-text">HTML5</p>
