@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../img/1.jpg"
+
 import img2 from "../../img/2.jpg"
 import img3 from "../../img/3.jpg"
 import img4 from "../../img/4.jpg"
@@ -18,21 +18,21 @@ export const Projects = () => (
         </div>
         <div className="container row m-auto justify-content-center">
             <div className="project-card card col-8 col-md-4 m-4 rounded-4">
-                <img src={img1} className="project-img card-img-top m-auto pt-4" alt="..." />
+                <img src={img2} className="project-img card-img-top m-auto pt-4" alt="..." />
                 <div className="card-body text-white">
-                    <h5 className="card-title">Tienda Virtual</h5>
-                    <p className="card-text">HTML-CSS-React</p>
-                    <a href="https://bootstrap5-f9a71xn54-nestorfron.vercel.app/" className="project-boton mx-3"><i class="fa-solid fa-play"></i></a>
-                    <a href="https://github.com/Nestorfron/bootstrap5" className="project-boton mx-3"><i class="fa-solid fa-code"></i></a>
+                    <h5 className="card-title">StarWars Blog</h5>
+                    <p className="card-text">HTML-React-Fetch</p>
+                    <a href="https://calculadora-a2928sxoj-nestorfron.vercel.app/" className="project-boton mx-3"><i class="fa-solid fa-play"></i></a>
+                    <a href="https://github.com/Nestorfron/star-wars-blog-nestorfrones" className="project-boton mx-3"><i class="fa-solid fa-code"></i></a>
                 </div>
             </div>
             <div className="project-card card col-8 col-md-4 m-4 rounded-4">
                 <img src={img2} className="project-img card-img-top m-auto pt-4" alt="..." />
                 <div className="card-body text-white">
-                    <h5 className="card-title">Calculadora</h5>
+                    <h5 className="card-title">Tienda Virtual</h5>
                     <p className="card-text">HTML-CSS-React</p>
-                    <a href="https://calculadora-a2928sxoj-nestorfron.vercel.app/" className="project-boton mx-3"><i class="fa-solid fa-play"></i></a>
-                    <a href="https://github.com/Nestorfron/calculadora" className="project-boton mx-3"><i class="fa-solid fa-code"></i></a>
+                    <a href="https://bootstrap5-f9a71xn54-nestorfron.vercel.app/" className="project-boton mx-3"><i class="fa-solid fa-play"></i></a>
+                    <a href="https://github.com/Nestorfron/bootstrap5" className="project-boton mx-3"><i class="fa-solid fa-code"></i></a>
                 </div>
             </div>
             <div className="project-card card col-8 col-md-4 m-4 rounded-4">
@@ -65,7 +65,7 @@ export const Projects = () => (
             <div className="project-card card col-8 col-md-4 m-4 rounded-4">
                 <img src={img6} className="project-img card-img-top m-auto pt-4" alt="..." />
                 <div className="card-body text-white">
-                    <h5 className="card-title">web</h5>
+                    <h5 className="card-title">Web</h5>
                     <p className="card-text">HTML-CSS-React</p>
                     <a href="https://startup1-pzs7izc3l-nestorfron.vercel.app/" className="project-boton mx-3"><i class="fa-solid fa-play"></i></a>
                     <a href="https://github.com/Nestorfron/Startup1" className="project-boton mx-3"><i class="fa-solid fa-code"></i></a>
