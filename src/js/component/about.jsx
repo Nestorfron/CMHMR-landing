@@ -12,18 +12,19 @@ export const About = () => (
             <p className="text-white fs-5">Desarrollador Full Stack con experiencia en el desarrollo de aplicaciones web y móviles, especializado en tecnologías front-end y back-end. Apasionado por crear soluciones eficientes, seguras y escalables, con un enfoque en la experiencia del usuario y la optimización del rendimiento.</p>
         </div>
         <div className="card-body">
-            <Link>
+
+            <a href="#">
                 <i className="icon-about fa-brands fa-facebook m-4  text-white shadow"></i>
-            </Link>
-            <Link>
+            </a>
+            <a href="https://www.linkedin.com/in/nestor-frones/" >
                 <i className="icon-about fa-brands fa-linkedin m-4  text-white shadow"></i>
-            </Link>
-            <Link>
+            </a>
+            <a href="https://github.com/Nestorfron">
                 <i className="icon-about fa-brands fa-github m-4  text-white shadow"></i>
-            </Link>
-            <Link>
+            </a>
+            <a href="https://wa.me/59892486454">
                 <i className="icon-about fa-brands fa-whatsapp m-4  text-white shadow"></i>
-            </Link>
+            </a>
             <div id="div-totop" className="cmn-divfloat">
                 <a href="#" className="btn btn-dark cmn-btncircle">
                     <i class="fa-solid fa-arrow-up"></i>
