@@ -3,9 +3,9 @@ import "../../styles/index.css"
 
 
 export const Footer = () => (
-	<footer className="footer m-auto p-3 text-center">
+	<footer className="footer m-auto p-3 text-center text-white">
 		<small>
-			hola
+			(NF)3 management 2024
 		</small>
 	</footer>
 );
