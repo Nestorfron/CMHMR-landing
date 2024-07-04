@@ -3,8 +3,8 @@ import React from "react";
 
 export const Projects = () => (
     <div id="projects" className="fondo text-center pb-3">
-        <div className="container row">
-            <div className="project-card card col-3 m-4">
+        <div className="container row m-auto">
+            <div className="project-card card col-3 col-md-6 col-sm-12 m-4">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Tienda Virtual</h5>
@@ -13,7 +13,7 @@ export const Projects = () => (
                     <a href="#" className="btn btn-primary">Code</a>
                 </div>
             </div>
-            <div className="project-card card col-3 m-4">
+            <div className="project-card card col-3 col-md-6 col-sm-12 m-4">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Tienda Virtual</h5>
@@ -22,7 +22,7 @@ export const Projects = () => (
                     <a href="#" className="btn btn-primary">Code</a>
                 </div>
             </div>
-            <div className="project-card card col-3 m-4">
+            <div className="project-card card col-3 col-md-6 col-sm-12 m-4">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Tienda Virtual</h5>
@@ -31,7 +31,7 @@ export const Projects = () => (
                     <a href="#" className="btn btn-primary">Code</a>
                 </div>
             </div>
-            <div className="project-card card col-3 m-4">
+            <div className="project-card card col-3 col-md-6 col-sm-12 m-4">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Tienda Virtual</h5>
@@ -40,7 +40,7 @@ export const Projects = () => (
                     <a href="#" className="btn btn-primary">Code</a>
                 </div>
             </div>
-            <div className="project-card card col-3 m-4">
+            <div className="project-card card col-3 col-md-6 col-sm-12 m-4">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Tienda Virtual</h5>
@@ -49,7 +49,7 @@ export const Projects = () => (
                     <a href="#" className="btn btn-primary">Code</a>
                 </div>
             </div>
-            <div className="project-card card col-3 m-4">
+            <div className="project-card card col-3 col-md-6 col-sm-12 m-4">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Tienda Virtual</h5>
@@ -58,7 +58,7 @@ export const Projects = () => (
                     <a href="#" className="btn btn-primary">Code</a>
                 </div>
             </div>
-            <div className="project-card card col-3 m-4">
+            <div className="project-card card col-3 col-md-6 col-sm-12 m-4">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Tienda Virtual</h5>
