@@ -35,6 +35,10 @@ a:hover {
     font-size: 1rem;
 }
 
+.project-card {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
 .cmn-divfloat {
     position: fixed !important;
     z-index: 1;
