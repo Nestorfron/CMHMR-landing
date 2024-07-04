@@ -19,7 +19,7 @@ export const Skills = () => (
                 <i className="my-auto icon-skill fa-brands fa-bootstrap"></i>
                 <p className="my-auto p-skill px-3 card-text">Boostrap</p>
             </div>
-            <div className="col p-4 mx-4 text-white">
+            <div className="col p-4 text-white">
                 <i className="my-auto icon-skill fa-brands fa-js"></i>
                 <p className="my-auto p-skill px-3 card-text">JavaScript</p>
             </div>
