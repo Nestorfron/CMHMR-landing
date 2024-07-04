@@ -11,6 +11,14 @@ a:hover {
     color: rgb(255, 238, 0) !important;
 }
 
+.link-inicio {
+    color: yellow !important;
+}
+
+.link {
+    color: #ffffff !important;
+}
+
 .image {
     max-width: 700px;
     max-height: 500px;
