@@ -18,13 +18,13 @@ export const Navbar = () => {
 							<a className="nav-link text-white" aria-current="page" href="#">Inicio</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link text-secondary" href="#">Conocimientos</a>
+							<a className="nav-link text-secondary" href="#about">Conocimientos</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link text-secondary" aria-disabled="true">Proyectos</a>
+							<a className="nav-link text-secondary" href="#projects">Proyectos</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link text-secondary" aria-disabled="true">Contacto</a>
+							<a className="nav-link text-secondary" href="#contact">Contacto</a>
 						</li>
 					</ul>
 				</div>
