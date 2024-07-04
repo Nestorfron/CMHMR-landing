@@ -52,6 +52,12 @@ a:hover {
     height: 9rem;
 }
 
+.project-boton {
+    color: yellow !important;
+    background-color: #ffffff;
+    border: none;
+}
+
 .contact {
     background-color: rgba(0, 0, 0, 0.323);
     color: #ffffff;
