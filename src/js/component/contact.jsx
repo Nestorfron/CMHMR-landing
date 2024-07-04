@@ -3,8 +3,8 @@ import React from "react"
 
 export const Contact = () => (
         <form id="contact" className="contact container-fluid">
-                <div className="container text-start rounded-3 pb-5 shadow-lg  p-4">
-                        <div className="text-white border-bottom">
+                <div className="container text-start rounded-3 pb-5 shadow-lg p-4">
+                        <div className="border-bottom">
                                 <h1 className="text-center" >Contacto</h1>
                         </div>
                         <div className="mb-3">
