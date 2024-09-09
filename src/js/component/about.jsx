@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/index.css"
-import img from "../../img/logoBlanco.png"
+import img from "../../img/cmhmr.png"
 import img0 from "../../img/0.jpg"
 
 
@@ -10,7 +10,7 @@ export const About = () => (
     <div id="about" style={{ backgroundImage: `url(${img0})`, backgroundSize: 'cover', backgroundPosition: 'center', zIndex1: -1 }} className="text-center">
         <div className="about-container container-fluid" >
             <div className="container-fluid px-5 col-sm-12">
-                <h1 className="title text-white fs-1 p-5 m-5">CompuMundoHiperMegaRed</h1>
+                <img src={img} alt="Logo" width="70%" height="50%" className="image d-inline-block align-text-top" />
                 <p className="text-white fs-5">Desarrolladores Full Stack con experiencia en el desarrollo de aplicaciones web y móviles, especializados en tecnologías front-end y back-end. Apasionados por crear soluciones eficientes, seguras y escalables, con un enfoque en la experiencia del usuario y la optimización del rendimiento.</p>
             </div>
             <div className="card-body p-5">

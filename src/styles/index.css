@@ -33,8 +33,12 @@ a:hover {
 }
 
 .image {
-    max-width: 700px;
-    max-height: 500px;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 800px;
+    max-height: 600px;
+    min-width: 400px;
+    min-height: 250px;
 }
 
 .icon-about {
