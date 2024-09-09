@@ -2,8 +2,18 @@
     font-family: "Pixelify Sans", sans-serif;
 }
 
+.title {
+    font-size: 3.5rem !important;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: rgb(255, 238, 0) !important;
+}
+
 .about-container {
     background-color: rgba(0, 0, 0, 0.842);
+    padding: 10px;
 }
 
 i:hover {

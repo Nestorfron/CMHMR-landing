@@ -8,7 +8,7 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg border-bottom border-white">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="#"><img src={img} alt="Logo" width="70" height="60" className="d-inline-block align-text-top" /></a>
+				<a className="navbar-brand" href="#">CMHMR</a>
 				<button className="navbar-toggler text-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<FontAwesomeIcon icon={faBars} />
 				</button>
